@@ -113,7 +113,7 @@ nav ul li {
 .header {
 	background-image: url(../images/Banner5-min.jpg);
 	background-size: cover;
-	/* background-position: center; */
+	background-position: center;
 	height: 100vh;
 	background-attachment: fixed;
 }
@@ -174,7 +174,7 @@ nav ul li {
 /* Skills section */
 .skills {
 	max-width: 68.75rem;
-	margin: auto;
+
 	text-align: center;
 	margin-top: 2.5rem;
 }
@@ -426,6 +426,10 @@ footer {
 	.contact-form-container {
 		max-width: 23.75rem;
 	}
+
+	.copy {
+		font-size: 0.6rem;
+	}
 }
 
 @media (min-width: 319px) and (max-width: 480px) {
@@ -497,7 +501,24 @@ footer {
 	}
 
 	.more-about h2 {
-		font-size: 1.2rem;
+		font-size: 1rem;
+		word-spacing: normal;
+	}
+
+	.more-about p {
+		text-align: justify;
+		line-height: 1rem;
+		font-size: 0.7rem;
+	}
+
+	.skill-header {
+		font-size: 1rem;
+		word-spacing: normal;
+	}
+
+	.icon {
+		width: 4.875rem;
+		height: 4.25rem;
 	}
 
 	.projects-container {
@@ -507,12 +528,27 @@ footer {
 	.project-container {
 		width: 20.875rem;
 	}
+
+	.projects-title {
+		font-size: 1rem;
+		word-spacing: normal;
+	}
+
 	.contact-form-container {
-		max-width: 17.75rem;
+		max-width: 20rem;
+	}
+
+	.contact h2 {
+		font-size: 1rem;
+		word-spacing: normal;
 	}
 
 	.contact-email {
-		font-size: 0.85rem;
+		font-size: 0.8rem;
+	}
+
+	.copy {
+		font-size: 0.5rem;
 	}
 
 	.scroll-up {
