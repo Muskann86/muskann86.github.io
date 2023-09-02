@@ -440,4 +440,11 @@ footer {
 	.contact-form-container {
 		max-width: 17.75rem;
 	}
+
+	.contact-email {
+		font-size: 0.85rem;
+	}
+	.scroll-up {
+		bottom: 13%;
+	}
 }
