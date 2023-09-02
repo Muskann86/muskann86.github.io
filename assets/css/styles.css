@@ -500,10 +500,13 @@ footer {
 		font-size: 1.2rem;
 	}
 
-	.project-container {
-		width: 17.875rem;
+	.projects-container {
+		flex-direction: column;
 	}
 
+	.project-container {
+		width: 20.875rem;
+	}
 	.contact-form-container {
 		max-width: 17.75rem;
 	}
@@ -511,7 +514,8 @@ footer {
 	.contact-email {
 		font-size: 0.85rem;
 	}
+
 	.scroll-up {
-		bottom: 13%;
+		bottom: 10%;
 	}
 }
