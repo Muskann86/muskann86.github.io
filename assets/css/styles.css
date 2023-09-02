@@ -336,7 +336,7 @@ footer {
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 720px) {
+@media (min-width: 481px) and (max-width: 768px) {
 	nav {
 		padding: 0rem 1.5rem;
 	}
@@ -407,6 +407,7 @@ footer {
 
 	.more-about p {
 		text-align: justify;
+		line-height: 1rem;
 	}
 
 	.icon {
@@ -427,7 +428,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 420px) {
+@media (min-width: 319px) and (max-width: 480px) {
 	.bio {
 		width: 18.3rem;
 	}
