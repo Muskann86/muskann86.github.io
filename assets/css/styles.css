@@ -35,7 +35,6 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* border: 2px solid red; */
 }
 
 ul {
@@ -45,7 +44,6 @@ ul {
 body {
 	font-family: var(--font-family);
 }
-
 /* CSS Resets end */
 
 /* Navbar */
@@ -60,7 +58,6 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
 	background-color: var(--bg-color);
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -479,7 +476,7 @@ footer {
 	}
 
 	.text-box {
-		top: 35%;
+		top: 50%;
 	}
 
 	.header h4 {
@@ -489,7 +486,7 @@ footer {
 	}
 
 	.more-about {
-		padding: 1rem 2rem;
+		padding: 1rem 1rem;
 	}
 
 	.more-about h2 {
@@ -500,7 +497,7 @@ footer {
 	.more-about p {
 		text-align: justify;
 		line-height: 1rem;
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 	}
 
 	.skill-header {
