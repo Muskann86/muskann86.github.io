@@ -383,14 +383,6 @@ footer {
 		transform: translateX(0);
 	}
 
-	.header {
-		background-image: url(../images/Banner5-min.jpg);
-		background-size: cover;
-		background-position: center;
-		height: 100vh;
-		/* background-attachment: fixed; */
-	}
-
 	.header h4 {
 		font-size: 1.2rem;
 		word-spacing: normal;
@@ -510,6 +502,14 @@ footer {
 		pointer-events: auto;
 		visibility: visible;
 		transform: translateX(0);
+	}
+
+	.header {
+		background-image: url(../images/Banner5-min.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		/* background-attachment: fixed; */
 	}
 
 	.header h4 {
