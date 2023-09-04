@@ -507,7 +507,7 @@ footer {
 	.header {
 		background-image: url(../images/Banner5-min.jpg);
 		background-size: cover;
-		background-position: center;
+		/* background-position: center; */
 		height: 100vh;
 		/* background-attachment: fixed; */
 	}
