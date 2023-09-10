@@ -1,0 +1,172 @@
+/* rem an em do not depend on html font-size in media queries!
+Instead, 1rem = 1em = 16px */
+
+/*****************************/
+/* 1601px to 1344px */
+/*****************************/
+
+@media (max-width: 1600px) and (min-width: 1344px) {
+	.container {
+		max-width: 153rem;
+	}
+
+	.main-nav-list {
+		gap: 6.4rem;
+	}
+
+	.main-nav-link:link,
+	.main-nav-link:visited {
+		font-size: var(--font-size-xx-large);
+	}
+
+	.heading-secondary {
+		font-size: 4.2rem;
+	}
+
+	.heading-tertiary {
+		font-size: 3.6rem;
+	}
+
+	.btn,
+	.btn:link,
+	.btn:visited {
+		font-size: 2.4rem;
+	}
+	.section-aboutMe {
+		padding: 9.6rem 0;
+	}
+	.aboutMe-img {
+		width: 85%;
+	}
+
+	.aboutMe-description {
+		font-size: var(--font-size-x-large);
+	}
+
+	.section-skills {
+		padding: 9.6rem 0;
+	}
+	.section-projects {
+		padding: 9.6rem 0;
+	}
+	.project-card {
+		width: 40rem;
+	}
+
+	.project-title {
+		font-size: var(--font-size-xx-large);
+	}
+	.project-details {
+		font-size: var(--font-size-medium);
+	}
+	.project-link {
+		font-size: var(--font-size-x-large);
+	}
+
+	.section-contact {
+		padding: 9.6rem 0;
+	}
+
+	.contact-form label {
+		font-size: var(--font-size-large);
+	}
+}
+
+/*****************************/
+/* 1343px to 1120px */
+
+/*****************************/
+@media (max-width: 1343px) and (min-width: 1120px) {
+	.container {
+		max-width: 140rem;
+	}
+
+	.grid {
+		column-gap: 6rem;
+	}
+
+	.main-nav-list {
+		gap: 6.2rem;
+	}
+
+	.main-nav-link:link,
+	.main-nav-link:visited {
+		font-size: var(--font-size-x-large);
+	}
+
+	.heading-primary {
+		font-size: 4.2rem;
+	}
+
+	.heading-secondary {
+		font-size: 3.6rem;
+		/* margin-bottom: 9.6rem; */
+	}
+
+	.heading-tertiary {
+		font-size: 3.2rem;
+	}
+
+	.btn,
+	.btn:link,
+	.btn:visited {
+		font-size: 2rem;
+	}
+
+	.hero-text-box {
+		top: 40%;
+	}
+
+	.section-aboutMe {
+		padding: 9.6rem 0;
+	}
+
+	.aboutMe-img {
+		width: 80%;
+	}
+
+	.aboutMe-description {
+		font-size: var(--font-size-large);
+	}
+
+	.section-skills {
+		padding: 9.6rem 0;
+	}
+
+	.section-projects {
+		padding: 9.6rem 0;
+	}
+
+	.project-card {
+		width: 34rem;
+	}
+
+	.project-title {
+		font-size: var(--font-size-x-large);
+	}
+	.project-details {
+		font-size: var(--font-size-small);
+	}
+	.project-link {
+		font-size: var(--font-size-large);
+	}
+
+	.section-contact {
+		padding: 9.6rem 0;
+	}
+}
+/*****************************/
+/* 1119px to  */
+/*****************************/
+/* @media (max-width: 1119px) {
+} */
+/*****************************/
+/*  */
+/*****************************/
+/* @media (max-width: ) {
+} */
+/*****************************/
+/*  */
+/*****************************/
+/* @media (max-width: ) {
+} */

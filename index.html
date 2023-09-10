@@ -2,312 +2,511 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Favicons -->
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="assets/icons/apple-touch-icon.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="assets/icons/favicon-32x32.png"
-		/>
+		<meta name="description" content="This is my Portfolio" />
+		<!-- CSS FILES -->
+		<link rel="stylesheet" href="css/general.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/queries.css" />
+		<!-- JS FILES -->
+		<script
+			defer
+			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+		></script>
+		<script defer src="js/script.js"></script>
 
-		<!-- Animate CSS CDN -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-		/>
-
-		<!--CSS Styles -->
-		<link rel="stylesheet" href="assets/css/styles.css" />
-
-		<!--JS Script -->
-		<script defer src="./assets/js/app.js"></script>
-
-		<title>Portfolio de Fatoumata SOUKOUNA</title>
+		<title>Portfolio</title>
 	</head>
-
 	<body>
-		<!-- Navbar -->
+		<!-- NAVBAR -->
 		<header class="header">
-			<nav>
-				<!-- <h1>Fatoumata SOUKOUNA</h1> -->
-				<a href="#"
-					><img src="assets/icons/logo-icon-64.png" alt=""
-				/></a>
-				<ul class="navigation">
+			<!-- Add logo -->
+			<a href="#" class="logo"><img src="" alt="" /></a>
+			<nav class="main-nav">
+				<ul class="main-nav-list">
 					<li>
-						<a href="#about" class="nav-link">A Propos de Moi</a>
+						<a href="#aboutMe" class="main-nav-link">About Me</a>
 					</li>
-					<li><a href="#skills" class="nav-link">Compétences</a></li>
-					<li><a href="#projects" class="nav-link">Projets</a></li>
-					<li><a href="#contact" class="nav-link">Contact</a></li>
+					<li><a href="#skills" class="main-nav-link">Skills</a></li>
+					<li>
+						<a href="#projects" class="main-nav-link">Projects</a>
+					</li>
+					<li>
+						<a href="#contact" class="main-nav-link">Contact</a>
+					</li>
 				</ul>
-				<button class="burger-menu" id="burger-menu">
-					<ion-icon
-						class="icon-mobile-nav"
-						name="menu-outline"
-					></ion-icon>
-				</button>
 			</nav>
-
-			<!-- Section aboutMe -->
-
-			<div class="text-box">
-				<h4>
-					Bonjour&#128521;! Je m'appelle Fatoumata SOUKOUNA, <br />
-					je suis une Développeuse Web/Mobile Junior&#128187;.
-				</h4>
+			<div class="hero-text-box">
+				<h1 class="heading-primary">
+					Hi, I'm Fatoumata Soukouna <br />
+					Web Developper
+				</h1>
+				<a href="" class="btn btn--full">View Resume</a>
 			</div>
+			<button class="btn-mobile-nav">
+				<ion-icon
+					class="icon-mobile-nav"
+					name="menu-outline"
+				></ion-icon>
+				<ion-icon
+					class="icon-mobile-nav"
+					name="close-outline"
+				></ion-icon>
+			</button>
 		</header>
-
-		<!-- More about -->
-		<section class="more-about" id="about">
-			<h2>A Propos de Moi</h2>
-
-			<p>
-				Apres plusieurs années d’expériences dans le domaine de l’aide à
-				la personne qui m’ont permis d’acquérir de très bonnes
-				compétences telles que l’écoute, l’autonomie, l’organisation
-				ainsi que la patience, j’ai choisi de me reconvertir dans le
-				domaine du numérique. J’ai commencée par une formation de
-				technicien assistance en informatique, je voulais savoir comment
-				fonctionnait un ordinateur, les différentes pièces qui le
-				composent etc. <br />
-				En 2019, j’ai assisté à une journée 100% femmes dans le
-				numérique organisée par Social Builder, pendant cette journée
-				pleine de motivation j’ai eu la surprise d’apprendre que les
-				sites web, les applications mobiles que je consulte, que
-				j’utilise ont une esthétique, un fonctionnement qui est le
-				travail de ce qu’on appelle une Développeuse Web. J’ai donc
-				repris ma démarche vers la reconversion en candidatant à de
-				nouvelles formations mais cette fois dans le développement web.
-				Aujourd’hui, après quelques formations je suis à la recherche de
-				ma première expérience pour mettre en pratique mes compétences
-				acquises, apprendre de mes consœurs et confrères et ainsi
-				contribuer à différents projets.
-			</p>
-		</section>
-
-		<!-- Skills section -->
-		<section class="skills" id="skills">
-			<h2 class="skill-header">Mes Compétences</h2>
-
-			<div class="skills-container">
-				<div class="first-set animate__animated animate__pulse">
-					<img
-						src="assets/icons/icons8-html-5.svg"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/icons8-css3.svg"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/icons8-bootstrap.svg"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/icons8-javascript.svg"
-						alt=""
-						class="icon icon-card"
-					/>
+		<main>
+			<!-- ABOUT ME -->
+			<section class="section-aboutMe" id="aboutMe">
+				<h2
+					class="aboutMe-title heading-secondary center-text text-deco-uppercase"
+				>
+					About Me
+				</h2>
+				<div class="container grid grid--2-cols">
+					<div class="aboutMe-img-box">
+						<img
+							src="./img/profil-img.png"
+							class="aboutMe-img"
+							alt="Profil photo"
+						/>
+					</div>
+					<div class="aboutMe-text-box">
+						<p class="aboutMe-description">
+							Lorem ipsum dolor, sit amet consectetur adipisicing
+							elit. Temporibus at rem tempore officiis
+							reprehenderit assumenda voluptatem! Omnis totam
+							voluptatibus natus repudiandae quibusdam
+							necessitatibus. Earum qui consequatur nostrum cum
+							porro ullam! Lorem ipsum dolor sit, amet consectetur
+							adipisicing elit. Quod veniam quo cupiditate enim
+							nemo neque at tempore facilis aspernatur, fugit sit,
+							quasi obcaecati dignissimos nisi. Iste iusto
+							voluptas suscipit labore! Lorem ipsum dolor, sit
+							amet consectetur adipisicing elit. Temporibus at rem
+							tempore officiis reprehenderit assumenda voluptatem!
+							Omnis totam voluptatibus natus repudiandae quibusdam
+							necessitatibus. Earum qui consequatur nostrum cum
+							porro ullam! Lorem ipsum dolor sit, amet consectetur
+							adipisicing elit. Quod veniam quo cupiditate enim
+							nemo neque at tempore facilis aspernatur, fugit sit,
+							quasi obcaecati dignissimos nisi. Iste iusto
+							voluptas suscipit labore!
+						</p>
+					</div>
 				</div>
+			</section>
 
-				<div class="second-set animate__animated animate__pulse">
-					<img
-						src="assets/icons/icons8-react-native.svg"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/logo_handlebars_icon.png"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/icons8-nodejs.svg"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/expressjs_logo_icon_169185.svg"
-						alt=""
-						class="icon icon-card"
-					/>
+			<!-- SKILLS -->
+			<section class="section-skills" id="skills">
+				<h2
+					class="skills-title heading-secondary center-text text-deco-uppercase"
+				>
+					My Skills
+				</h2>
+				<div class="container skills-container">
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-html">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										70<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">Html</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-css">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										70<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">Css</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-bootstrap">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										70<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">Bootstrap</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-tailwindcss">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										70<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">Tailwindcss</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-sass">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										40<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">Sass</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-javaScript">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										30<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">JavaScript</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-jquery">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										40<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">Jquery</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-nodejs">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										50<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">NodeJS</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-reactjs">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										50<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">ReactJS</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-vuejs">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										20<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">VueJS</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-mysql">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										40<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">MySQL</h2>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="progress">
+							<div class="progress-bar">
+								<svg class="circle-mongodb">
+									<circle cx="70" cy="70" r="70"></circle>
+									<circle cx="70" cy="70" r="70"></circle>
+								</svg>
+								<div class="progress-box">
+									<h2 class="progress-box-number">
+										50<span>%</span>
+									</h2>
+								</div>
+							</div>
+							<h2 class="progress-text">MongoDB</h2>
+						</div>
+					</div>
 				</div>
+			</section>
 
-				<div class="third-set animate__animated animate__pulse">
-					<img
-						src="assets/icons/logo_mongodb_icon.png"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/logo_mysql_icon.png"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/icons8-git.svg"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/logo_postman_icon.png"
-						alt=""
-						class="icon icon-card"
-					/>
+			<!-- PROJECTS -->
+			<section class="section-projects" id="projects">
+				<h2
+					class="projects-title heading-secondary center-text text-deco-uppercase"
+				>
+					My Projects
+				</h2>
+				<div class="projects-container">
+					<div class="project-card">
+						<img
+							src="img/PokémonPic.jpg"
+							alt="PokémonPic"
+							class="project-pic"
+						/>
+						<h3 class="project-title">Pokemons Cards</h3>
+						<p class="project-details">
+							Mini-site de Cartes Pokémon de manière aléatoire
+							avec React-Hooks.
+						</p>
+						<a
+							href="https://pokemon-cards-326d.onrender.com"
+							target="_blank"
+							class="project-link"
+							>View Project</a
+						>
+					</div>
+					<div class="project-card">
+						<img
+							src="img/GameOfThronesPic.jpg"
+							alt="GameOfThronesPic"
+							class="project-pic"
+						/>
+						<h3 class="project-title">Game Of Thrones</h3>
+						<p class="project-details">
+							Mini-site des Acteurs de Game of Thrones à l'aide
+							d'une API.
+						</p>
+						<a
+							href="https://game-of-thrones.onrender.com"
+							target="_blank"
+							class="project-link"
+							>View Project</a
+						>
+					</div>
+					<div class="project-card">
+						<img
+							src="img/OmniFoodPic.jpg"
+							alt="OmnifoodPic"
+							class="project-pic"
+						/>
+						<h3 class="project-title">OmniFood</h3>
+						<p class="project-details">
+							Mini-site de Livraison de nourriture haut de gamme.
+						</p>
+						<a
+							href="https://muskann86.github.io/omnifood/"
+							target="_blank"
+							class="project-link"
+							>View Project</a
+						>
+					</div>
 				</div>
+			</section>
 
-				<div class="fourth-set animate__animated animate__pulse">
-					<img
-						src="assets/icons/file_type_vscode_icon_130084.ico"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/logo_discord_icon.png"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/logo_slack_icon.png"
-						alt=""
-						class="icon icon-card"
-					/>
-					<img
-						src="assets/icons/logo_notion_icon.png"
-						alt=""
-						class="icon icon-card"
-					/>
-				</div>
-			</div>
-		</section>
-
-		<!-- Projects section -->
-		<section class="projects" id="projects">
-			<h2 class="projects-title">Mes Projets Récents</h2>
-			<div class="projects-container">
-				<div class="project-container project-card">
-					<img
-						src="assets/images/PokémonPic.jpg"
-						alt="PokémonPic"
-						class="project-pic"
-					/>
-					<h3 class="project-title">Pokemons Cards</h3>
-					<p class="project-details">
-						Mini-site de Cartes Pokémon de manière aléatoire avec
-						React-Hooks.
-					</p>
-					<a
-						href="https://pokemon-cards-326d.onrender.com"
-						target="_blank"
-						class="project-link"
-						>Accéder</a
+			<!-- CONTACT -->
+			<section class="section-contact" id="contact">
+				<div class="container">
+					<h2
+						class="contact-title heading-secondary center-text text-deco-uppercase"
 					>
+						Contact Me
+					</h2>
+					<div class="contact">
+						<div class="contact-box">
+							<h3 class="heading-tertiary center-text">
+								Let's stay in touch
+							</h3>
+
+							<form
+								action=""
+								class="contact-form"
+								id="contact-form"
+								method="post"
+							>
+								<div>
+									<label for="full-name">Full Name</label>
+									<input
+										name="full-name"
+										id="full-name"
+										type="text"
+										placeholder="Jane Doe"
+										required
+									/>
+								</div>
+
+								<div>
+									<label for="email">Email address</label>
+									<input
+										id="email"
+										type="email"
+										placeholder="me@example.com"
+										name="email"
+										required
+									/>
+								</div>
+								<div>
+									<label for="full-name">Message</label
+									><textarea
+										name="message"
+										id="message"
+										placeholder="Enter your message"
+										cols="30"
+										rows="10"
+										required
+									></textarea>
+								</div>
+
+								<button class="btn btn--form" type="button">
+									Send Message
+								</button>
+							</form>
+						</div>
+						<div class="contact-map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.91465390812!2d2.5488091752123223!3d48.84076660194821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60e086920fdcb%3A0xd09e1ac40ec8e050!2zTm9pc3ktbGUtR3JhbmTigJNNb250IGTigJlFc3Q!5e0!3m2!1sfr!2sfr!4v1694168006942!5m2!1sfr!2sfr"
+								width="600"
+								height="450"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+					</div>
 				</div>
-				<div class="project-container project-card">
-					<img
-						src="assets/images/GameOfThronesPic.jpg"
-						alt="GameOfThronesPic"
-						class="project-pic"
-					/>
-					<h3 class="project-title">Game Of Thrones</h3>
-					<p class="project-details">
-						Mini-site des Acteurs de Game of Thrones à l'aide d'une
-						API.
+			</section>
+		</main>
+
+		<!-- FOOTER -->
+		<footer class="section-footer">
+			<div class="container grid grid--3-cols">
+				<div class="footer-logo-copyright">
+					<a href="#" class="footer-logo"
+						><img class="logo" src="" alt=""
+					/></a>
+					<p class="copyright">
+						Copyright &copy;
+						<span class="year">2027</span> Fatoumata SOUKOUNA.
+						<br />All rights reserved.
 					</p>
-					<a
-						href="https://game-of-thrones.onrender.com"
-						target="_blank"
-						class="project-link"
-						>Accéder</a
-					>
 				</div>
-				<div class="project-container project-card">
-					<img
-						src="assets/images/OmniFoodPic.jpg"
-						alt="OmnifoodPic"
-						class="project-pic"
-					/>
-					<h3 class="project-title">OmniFood</h3>
-					<p class="project-details">
-						Mini-site de Livraison de nourriture haut de gamme.
-					</p>
-					<a
-						href="https://muskann86.github.io/omnifood/"
-						target="_blank"
-						class="project-link"
-						>Accéder</a
-					>
-				</div>
+				<ul class="social-links">
+					<li>
+						<a
+							class="footer-nav-link"
+							href="https://github.com/Muskann86"
+							><ion-icon
+								class="social-icon"
+								name="logo-github"
+							></ion-icon
+						></a>
+					</li>
+					<li>
+						<a class="footer-nav-link" href="#"
+							><ion-icon
+								class="social-icon"
+								name="mail-outline"
+							></ion-icon
+						></a>
+					</li>
+					<li>
+						<a
+							class="footer-nav-link"
+							href="https://www.linkedin.com/in/fatoumatasoukouna86/"
+							><ion-icon
+								class="social-icon"
+								name="logo-linkedin"
+							></ion-icon
+						></a>
+					</li>
+				</ul>
+				<ul class="footer-nav-list">
+					<li>
+						<a href="#about-me" class="footer-nav-link">About me</a>
+					</li>
+					<li>
+						<a href="#skills" class="footer-nav-link">Skills</a>
+					</li>
+					<li>
+						<a href="#projects" class="footer-nav-link">Projects</a>
+					</li>
+					<li>
+						<a href="#contact" class="footer-nav-link">Contact</a>
+					</li>
+				</ul>
 			</div>
-		</section>
-
-		<!-- Contact section -->
-		<section class="contact" id="contact">
-			<h2>Restons en Contact</h2>
-			<div class="contact-form-container">
-				<div class="contact-email animate__animated animate__heartBeat">
-					<p>&#9993; soukounafatoumata86@gmail.com &#9993;</p>
-				</div>
-			</div>
-		</section>
-
-		<!-- Social accounts - Fixed to the right -->
-		<div class="socials">
-			<a
-				href="https://www.linkedin.com/in/fatoumatasoukouna86/"
-				target="_blank"
-				><img
-					src="assets/icons/icons8-linkedin-circled.gif"
-					alt="Linkedin"
-					class="socicon"
-			/></a>
-			<a href="https://github.com/Muskann86" target="_blank"
-				><img
-					src="assets/icons/icons8-github.gif"
-					alt="Github"
-					class="socicon"
-			/></a>
-		</div>
-
-		<!-- Scroll to top -->
-		<i class="scroll-up" id="scroll-up"
-			><img
-				src="assets/icons/icons8-scroll-up.gif"
-				class="socicon up-arrow"
-				alt=""
-		/></i>
-
-		<!-- Footer section -->
-		<footer>
-			<p class="copy">
-				&copy; Copyright 2021 &#1645; Fatoumata SOUKOUNA &#1645;
-			</p>
 		</footer>
 
-		<!-- Website scripts -->
-		<script src="assets/js/app.js"></script>
-
-		<!-- Ion icons scripts -->
 		<script
 			type="module"
-			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
 		></script>
 		<script
 			nomodule
-			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
 		></script>
 	</body>
 </html>
