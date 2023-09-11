@@ -275,9 +275,8 @@ Instead, 1rem = 1em = 16px */
 				rgba(2, 1, 6, 0.6),
 				rgba(2, 1, 6, 0.6)
 			),
-			url(../img/hero-img.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
+			url(../img/hero-img-min.jpg);
+		background-size: cover;
 		height: 100vh;
 		background-attachment: fixed;
 		background-position: center;
