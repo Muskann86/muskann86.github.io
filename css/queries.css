@@ -270,6 +270,17 @@ Instead, 1rem = 1em = 16px */
 /* 639px to 481px */
 /*****************************/
 @media (max-width: 639px) and (min-width: 481px) {
+	.header {
+		background-image: linear-gradient(
+				rgba(2, 1, 6, 0.6),
+				rgba(2, 1, 6, 0.6)
+			),
+			url(../img/hero-img.jpg);
+		background-size: cover;
+		height: 100vh;
+		background-attachment: fixed;
+		background-position: center;
+	}
 	.heading-primary {
 		font-size: 3.2rem;
 	}
