@@ -209,6 +209,18 @@ Instead, 1rem = 1em = 16px */
 		max-width: 100rem;
 	}
 
+	.header {
+		background-image: linear-gradient(
+				rgba(2, 1, 6, 0.6),
+				rgba(2, 1, 6, 0.6)
+			),
+			url(../img/hero-img-min.jpg);
+		background-size: cover;
+		height: 100vh;
+		background-attachment: fixed;
+		background-position: center;
+	}
+
 	.heading-primary {
 		font-size: 3.8rem;
 	}
@@ -337,12 +349,13 @@ Instead, 1rem = 1em = 16px */
 				rgba(2, 1, 6, 0.6),
 				rgba(2, 1, 6, 0.6)
 			),
-			url(../img/hero-img.jpg);
+			url(../img/hero-img-min.jpg);
 		background-size: cover;
 		height: 100vh;
 		background-attachment: fixed;
 		background-position: center;
 	}
+
 	.heading-primary {
 		font-size: 2.6rem;
 	}
