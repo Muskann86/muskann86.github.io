@@ -328,10 +328,9 @@ Instead, 1rem = 1em = 16px */
 			),
 			url(../img/hero-img.jpg);
 		background-size: cover;
-
 		height: 100vh;
 		background-attachment: fixed;
-		background-position: initial;
+		background-position: center;
 	}
 	.heading-primary {
 		font-size: 2.6rem;
