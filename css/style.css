@@ -52,9 +52,9 @@
 }
 
 .icon-mobile-nav {
-	height: 4.8rem;
-	width: 4.8rem;
-	color: var(--color-one);
+	height: 6.4rem;
+	width: 6.4rem;
+	color: var(--color-four);
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -70,6 +70,9 @@
 	height: 8rem;
 	padding-top: 0;
 	padding-bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	background-color: var(--color-one);
 	box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 	z-index: 999;
@@ -311,6 +314,7 @@ svg circle:nth-child(2) {
 	column-gap: 4rem;
 	row-gap: 4rem;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .project-card {
@@ -444,6 +448,11 @@ textarea::placeholder {
 .section-footer {
 	background-color: var(--color-one);
 	padding: 6.4rem 0;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
 }
 
 .footer-logo-copyright {
