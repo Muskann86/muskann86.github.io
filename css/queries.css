@@ -267,7 +267,114 @@ Instead, 1rem = 1em = 16px */
 	}
 }
 /*****************************/
-/* 639px to  */
+/* 639px to 481px */
 /*****************************/
-@media (max-width: 639px) {
+@media (max-width: 639px) and (min-width: 481px) {
+	.heading-primary {
+		font-size: 3.2rem;
+	}
+
+	.heading-secondary {
+		font-size: 2.6rem;
+	}
+
+	.hero-text-box {
+		top: 40%;
+	}
+
+	.grid {
+		grid-template-columns: 1fr;
+	}
+
+	.aboutMe-img-box {
+		text-align: center;
+	}
+
+	.aboutMe-img {
+		width: 85%;
+	}
+
+	.aboutMe-description {
+		font-size: var(--font-size-medium);
+	}
+
+	.contact {
+		grid-template-columns: 1fr;
+	}
+
+	.footer-container {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.social-links {
+		margin-bottom: 35px;
+	}
+
+	.footer-nav-list {
+		gap: 3.2rem;
+		margin-bottom: 35px;
+	}
+}
+
+/*****************************/
+/* 480px */
+/*****************************/
+@media (max-width: 480px) {
+	.heading-primary {
+		font-size: 2.6rem;
+	}
+	.heading-secondary {
+		font-size: 2.4rem;
+	}
+
+	.heading-tertiary {
+		font-size: 2rem;
+	}
+
+	.hero-text-box {
+		top: 40%;
+	}
+
+	.grid {
+		grid-template-columns: 1fr;
+	}
+
+	.aboutMe-img-box {
+		text-align: center;
+	}
+
+	.aboutMe-img {
+		width: 85%;
+	}
+
+	.aboutMe-description {
+		font-size: var(--font-size-medium);
+	}
+
+	.contact {
+		grid-template-columns: 1fr;
+	}
+
+	.contact-form label {
+		font-size: var(--font-size-small);
+	}
+
+	.contact-form input {
+		font-size: var(--font-size-medium);
+	}
+
+	.footer-container {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.social-links {
+		margin-bottom: 35px;
+	}
+
+	.footer-nav-list {
+		gap: 3.2rem;
+		margin-bottom: 35px;
+	}
 }
