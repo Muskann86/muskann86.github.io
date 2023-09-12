@@ -207,7 +207,6 @@ Instead, 1rem = 1em = 16px */
 @media (max-width: 944px) and (min-width: 640px) {
 	.container {
 		max-width: 100rem;
-		margin: 0;
 	}
 
 	.header {
@@ -215,7 +214,7 @@ Instead, 1rem = 1em = 16px */
 				rgba(2, 1, 6, 0.6),
 				rgba(2, 1, 6, 0.6)
 			),
-			url(../img/hero-img-min-min.jpg);
+			url(../img/hero-img-small.jpg);
 		height: 100vh;
 		background-size: cover;
 		background-position: center;
@@ -282,16 +281,12 @@ Instead, 1rem = 1em = 16px */
 /* 639px to 481px */
 /*****************************/
 @media (max-width: 639px) and (min-width: 481px) {
-	.container {
-		max-width: 100rem;
-		margin: 0;
-	}
 	.header {
 		background-image: linear-gradient(
 				rgba(2, 1, 6, 0.6),
 				rgba(2, 1, 6, 0.6)
 			),
-			url(../img/hero-img-min-min.jpg);
+			url(../img/hero-img-small.jpg);
 
 		height: 100vh;
 		background-size: cover;
@@ -348,16 +343,12 @@ Instead, 1rem = 1em = 16px */
 /* 480px */
 /*****************************/
 @media (max-width: 480px) {
-	.container {
-		max-width: 100rem;
-		margin: 0;
-	}
 	.header {
 		background-image: linear-gradient(
 				rgba(2, 1, 6, 0.6),
 				rgba(2, 1, 6, 0.6)
 			),
-			url(../img/hero-img-min-min.jpg);
+			url(../img/hero-img-small.jpg);
 		height: 100vh;
 		background-size: cover;
 		background-position: center;
