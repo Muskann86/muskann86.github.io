@@ -218,6 +218,7 @@ Instead, 1rem = 1em = 16px */
 		height: 100vh;
 		background-size: cover;
 		background-position: top;
+		position: relative;
 	}
 
 	.heading-primary {
@@ -291,6 +292,7 @@ Instead, 1rem = 1em = 16px */
 		height: 100vh;
 		background-size: cover;
 		background-position: top;
+		position: relative;
 	}
 	.heading-primary {
 		font-size: 3.2rem;
@@ -352,6 +354,7 @@ Instead, 1rem = 1em = 16px */
 		height: 100vh;
 		background-size: cover;
 		background-position: top;
+		position: relative;
 	}
 
 	.heading-primary {
