@@ -290,9 +290,8 @@ Instead, 1rem = 1em = 16px */
 			url(../img/hero-img-small.jpg);
 
 		position: relative;
-		background-position: center center !important;
-		background-size: cover !important;
-		background-repeat: no-repeat !important;
+		background-position: initial;
+		background-size: cover;
 	}
 	.heading-primary {
 		font-size: 3.2rem;
