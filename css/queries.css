@@ -216,9 +216,9 @@ Instead, 1rem = 1em = 16px */
 			),
 			url(../img/hero-img-small.jpg);
 		position: relative;
-		background-position: center center !important;
-		background-size: cover !important;
-		background-repeat: no-repeat !important;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
 	}
 
 	.heading-primary {
@@ -290,8 +290,9 @@ Instead, 1rem = 1em = 16px */
 			url(../img/hero-img-small.jpg);
 
 		position: relative;
-		background-position: initial;
+		background-position: center;
 		background-size: cover;
+		background-attachment: scroll;
 	}
 	.heading-primary {
 		font-size: 3.2rem;
@@ -351,9 +352,9 @@ Instead, 1rem = 1em = 16px */
 			),
 			url(../img/hero-img-small.jpg);
 		position: relative;
-		background-position: center center !important;
-		background-size: cover !important;
-		background-repeat: no-repeat !important;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
 	}
 
 	.heading-primary {
