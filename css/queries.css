@@ -214,11 +214,11 @@ Instead, 1rem = 1em = 16px */
 				rgba(2, 1, 6, 0.6),
 				rgba(2, 1, 6, 0.6)
 			),
-			url(../img/hero-img-min.jpg);
+			url(../img/hero-img-min-min.jpg);
 		height: 100vh;
 		background-size: cover;
 		background-position: top;
-		position: relative;
+		width: 85%;
 	}
 
 	.heading-primary {
@@ -287,12 +287,12 @@ Instead, 1rem = 1em = 16px */
 				rgba(2, 1, 6, 0.6),
 				rgba(2, 1, 6, 0.6)
 			),
-			url(../img/hero-img-min.jpg);
+			url(../img/hero-img-min-min.jpg);
 
 		height: 100vh;
 		background-size: cover;
 		background-position: top;
-		position: relative;
+		width: 85%;
 	}
 	.heading-primary {
 		font-size: 3.2rem;
@@ -350,11 +350,11 @@ Instead, 1rem = 1em = 16px */
 				rgba(2, 1, 6, 0.6),
 				rgba(2, 1, 6, 0.6)
 			),
-			url(../img/hero-img-min.jpg);
+			url(../img/hero-img-min-min.jpg);
 		height: 100vh;
 		background-size: cover;
 		background-position: top;
-		position: relative;
+		width: 85%;
 	}
 
 	.heading-primary {
