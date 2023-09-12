@@ -217,7 +217,7 @@ Instead, 1rem = 1em = 16px */
 			url(../img/hero-img-min-min.jpg);
 		height: 100vh;
 		background-size: cover;
-		background-position: inherit;
+		background-position: center;
 	}
 
 	.heading-primary {
@@ -290,7 +290,7 @@ Instead, 1rem = 1em = 16px */
 
 		height: 100vh;
 		background-size: cover;
-		background-position: inherit;
+		background-position: center;
 	}
 	.heading-primary {
 		font-size: 3.2rem;
@@ -351,7 +351,7 @@ Instead, 1rem = 1em = 16px */
 			url(../img/hero-img-min-min.jpg);
 		height: 100vh;
 		background-size: cover;
-		background-position: inherit;
+		background-position: center;
 	}
 
 	.heading-primary {
