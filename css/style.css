@@ -3,7 +3,7 @@
 /********** **********/
 .header {
 	background-image: linear-gradient(rgba(2, 1, 6, 0.6), rgba(2, 1, 6, 0.6)),
-		url(../img/hero-img-compress-2.jpg);
+		url(../img/hero-img-compress-1.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -16,15 +16,21 @@
 /********** **********/
 /* NAVIGATION */
 /********** **********/
-.main-nav-list {
+.main-nav {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	gap: 4.8rem;
+
 	height: 9.6rem;
 	padding: 0 4.8rem;
 	position: relative;
+}
+
+.main-nav-list {
 	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -62,7 +68,7 @@
 }
 
 /* STICKY NAVIGATION */
-.sticky .main-nav-list {
+.sticky .main-nav {
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -75,7 +81,7 @@
 	/* justify-content: space-between; */
 	background-color: var(--color-one);
 	box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
-	z-index: 999;
+	z-index: 992;
 }
 
 .hero-text-box {
@@ -220,7 +226,7 @@ svg {
 	position: relative;
 	width: 15rem;
 	height: 15rem;
-	z-index: 1000;
+	z-index: 991;
 }
 svg circle {
 	width: 100%;
