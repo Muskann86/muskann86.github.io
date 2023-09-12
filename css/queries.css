@@ -207,6 +207,7 @@ Instead, 1rem = 1em = 16px */
 @media (max-width: 944px) and (min-width: 640px) {
 	.container {
 		max-width: 100rem;
+		margin: 0;
 	}
 
 	.header {
@@ -281,6 +282,10 @@ Instead, 1rem = 1em = 16px */
 /* 639px to 481px */
 /*****************************/
 @media (max-width: 639px) and (min-width: 481px) {
+	.container {
+		max-width: 100rem;
+		margin: 0;
+	}
 	.header {
 		background-image: linear-gradient(
 				rgba(2, 1, 6, 0.6),
@@ -343,6 +348,10 @@ Instead, 1rem = 1em = 16px */
 /* 480px */
 /*****************************/
 @media (max-width: 480px) {
+	.container {
+		max-width: 100rem;
+		margin: 0;
+	}
 	.header {
 		background-image: linear-gradient(
 				rgba(2, 1, 6, 0.6),
