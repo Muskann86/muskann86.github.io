@@ -217,6 +217,17 @@ Instead, 1rem = 1em = 16px */
 		font-size: 2.8rem;
 	}
 
+	.header {
+		background-image: linear-gradient(
+				rgba(2, 1, 6, 0.6),
+				rgba(2, 1, 6, 0.6)
+			),
+			url(../img/hero-img-compress.jpg);
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
 	.hero-text-box {
 		top: 40%;
 	}
@@ -333,11 +344,22 @@ Instead, 1rem = 1em = 16px */
 /*****************************/
 @media (max-width: 639px) and (min-width: 481px) {
 	.heading-primary {
-		font-size: 3.2rem;
+		font-size: 3rem;
 	}
 
 	.heading-secondary {
 		font-size: 2.6rem;
+	}
+
+	.header {
+		background-image: linear-gradient(
+				rgba(2, 1, 6, 0.6),
+				rgba(2, 1, 6, 0.6)
+			),
+			url(../img/hero-img-compress.jpg);
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
 	}
 
 	.hero-text-box {
