@@ -270,8 +270,10 @@ Instead, 1rem = 1em = 16px */
 	.btn-mobile-nav {
 		display: block;
 		z-index: 9999;
-		position: absolute;
-		left: 84%;
+		position: relative;
+		float: right;
+		right: 2%;
+		top: 2%;
 	}
 
 	.main-nav {
@@ -379,8 +381,10 @@ Instead, 1rem = 1em = 16px */
 	.btn-mobile-nav {
 		display: block;
 		z-index: 9999;
-		position: absolute;
-		left: 84%;
+		position: relative;
+		float: right;
+		right: 2%;
+		top: 2%;
 	}
 
 	.main-nav {
@@ -451,6 +455,14 @@ Instead, 1rem = 1em = 16px */
 		font-size: 2rem;
 	}
 
+	.header {
+		background-image: linear-gradient(
+				rgba(2, 1, 6, 0.6),
+				rgba(2, 1, 6, 0.6)
+			),
+			url(../img/hero-img-compress-1.jpg);
+	}
+
 	.hero-text-box {
 		top: 40%;
 	}
@@ -501,8 +513,11 @@ Instead, 1rem = 1em = 16px */
 	.btn-mobile-nav {
 		display: block;
 		z-index: 9999;
-		position: absolute;
-		left: 84%;
+		position: relative;
+
+		float: right;
+		right: 2%;
+		top: 2%;
 	}
 
 	.main-nav {
