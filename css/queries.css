@@ -324,6 +324,8 @@ Instead, 1rem = 1em = 16px */
 	.btn-mobile-nav {
 		display: block;
 		z-index: 9999;
+		position: absolute;
+		left: 84%;
 	}
 
 	.main-nav {
