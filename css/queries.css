@@ -218,13 +218,6 @@ Instead, 1rem = 1em = 16px */
 	}
 
 	.header {
-		background-image: linear-gradient(
-				rgba(2, 1, 6, 0.6),
-				rgba(2, 1, 6, 0.6)
-			),
-			url(../img/hero-img-compress.jpg);
-		background-position: center;
-		background-size: cover;
 		background-attachment: scroll;
 	}
 
@@ -352,13 +345,6 @@ Instead, 1rem = 1em = 16px */
 	}
 
 	.header {
-		background-image: linear-gradient(
-				rgba(2, 1, 6, 0.6),
-				rgba(2, 1, 6, 0.6)
-			),
-			url(../img/hero-img-compress.jpg);
-		background-position: center;
-		background-size: cover;
 		background-attachment: scroll;
 	}
 
@@ -479,13 +465,6 @@ Instead, 1rem = 1em = 16px */
 	}
 
 	.header {
-		background-image: linear-gradient(
-				rgba(2, 1, 6, 0.6),
-				rgba(2, 1, 6, 0.6)
-			),
-			url(../img/hero-img-compress.jpg);
-		background-position: center;
-		background-size: cover;
 		background-attachment: scroll;
 	}
 
