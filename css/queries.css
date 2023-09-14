@@ -218,13 +218,7 @@ Instead, 1rem = 1em = 16px */
 	}
 
 	.header {
-		background-image: linear-gradient(
-				rgba(2, 1, 6, 0.6),
-				rgba(2, 1, 6, 0.6)
-			),
-			url(../img/hero-img-compress.jpg);
-		background-position: center;
-		background-size: cover;
+		
 		background-attachment: scroll;
 	}
 
@@ -343,11 +337,6 @@ Instead, 1rem = 1em = 16px */
 /* 639px to 481px */
 /*****************************/
 @media (max-width: 639px) and (min-width: 481px) {
-	
-	.container {
-		max-width: 40rem;
-	}
-	
 	.heading-primary {
 		font-size: 3rem;
 	}
@@ -357,13 +346,7 @@ Instead, 1rem = 1em = 16px */
 	}
 
 	.header {
-		background-image: linear-gradient(
-				rgba(2, 1, 6, 0.6),
-				rgba(2, 1, 6, 0.6)
-			),
-			url(../img/hero-img-compress.jpg);
-		background-position: center;
-		background-size: cover;
+		
 		background-attachment: scroll;
 	}
 
@@ -472,10 +455,6 @@ Instead, 1rem = 1em = 16px */
 /* 480px */
 /*****************************/
 @media (max-width: 480px) {
-	
-		.container {
-		max-width: 30rem;
-	}
 	.heading-primary {
 		font-size: 2.6rem;
 	}
@@ -488,13 +467,7 @@ Instead, 1rem = 1em = 16px */
 	}
 
 	.header {
-		background-image: linear-gradient(
-				rgba(2, 1, 6, 0.6),
-				rgba(2, 1, 6, 0.6)
-			),
-			url(../img/hero-img-compress.jpg);
-		background-position: center;
-		background-size: cover;
+
 		background-attachment: scroll;
 	}
 
