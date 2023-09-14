@@ -343,6 +343,11 @@ Instead, 1rem = 1em = 16px */
 /* 639px to 481px */
 /*****************************/
 @media (max-width: 639px) and (min-width: 481px) {
+	
+	.container {
+		max-width: 80rem;
+	}
+	
 	.heading-primary {
 		font-size: 3rem;
 	}
@@ -467,6 +472,10 @@ Instead, 1rem = 1em = 16px */
 /* 480px */
 /*****************************/
 @media (max-width: 480px) {
+	
+		.container {
+		max-width: 60rem;
+	}
 	.heading-primary {
 		font-size: 2.6rem;
 	}
